@@ -1,5 +1,4 @@
 resource "aws_vpc" "vpc_teste"{
-    name = format("%s", var.vpc_name)
     cidr_block = var.cidr_block
 
     tags = {
